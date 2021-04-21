@@ -2,7 +2,7 @@
 
 public class Note
 {
-    
+     // c est moi
         public int NumeroEtudiant { get; set; }
         public string CodeCours { get; set; }
         public double NoteCours { get; set; }
