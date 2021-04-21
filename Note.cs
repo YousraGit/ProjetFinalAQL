@@ -2,7 +2,6 @@
 
 public class Note
 {
-    
         public int NumeroEtudiant { get; set; }
         public string CodeCours { get; set; }
         public double NoteCours { get; set; }
@@ -14,16 +13,12 @@ public class Note
             this.NoteCours = noteCours;
         }
 
-
-
         public override string ToString()
         {
             return "Numéro Etudiant : " + this.NumeroEtudiant + "\n" +
                     "Code Cours : " + this.CodeCours + "\n" +
                    "Note Cours : " + this.NoteCours;
         }
-
-
 
         public override bool Equals(object obj)
         {
