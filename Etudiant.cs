@@ -9,16 +9,12 @@ public class Etudiant
         this.Prenom = prenom;
     }
 
-
-
     public override string ToString()
     {
         return "Numéro Etudiant : " + this.NumeroEtudiant + "\n" +
                "Nom : " + this.Nom + "\n" +
                "Prenom : " + this.Prenom;
     }
-
-
 
     public override bool Equals(object obj)
     {

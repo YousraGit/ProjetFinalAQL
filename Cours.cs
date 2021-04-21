@@ -6,9 +6,6 @@ public class Cours
     public string CodeCours { get; set; }
     public string TitreCours { get; set; }
 
-
-
-
     public Cours(int numeroCours, string codeCours, string titreCours)
     {
         this.NumeroCours = numeroCours;
@@ -16,16 +13,12 @@ public class Cours
         this.TitreCours = titreCours;
     }
 
-
-
     public override string ToString()
     {
         return "Numéro de cours : " + this.NumeroCours + "\n" +
                 "Code : " + this.CodeCours + "\n" +
                 "Titre : " + this.TitreCours;
     }
-
-
 
     public override bool Equals(object obj)
     {
